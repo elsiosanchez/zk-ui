@@ -137,6 +137,9 @@ dependencies {
     implementation group: 'org.beanshell', name: 'bsh', version: '2.0b5'
     //	ZK
     //implementation 'org.zkoss.zk:zk:3.6.3'
+    //	Temporary projects
+	//	Keycloak and Okta connector (Open-ID  based)
+	implementation "${baseGroupId}:adempiere-open-id-connector:1.0.0"
 }
 
 // Inform IDEs like IntelliJ IDEA, Eclipse or NetBeans about the generated code.
